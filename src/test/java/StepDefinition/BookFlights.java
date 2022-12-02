@@ -14,13 +14,13 @@ public class BookFlights {
     }
 
     @When("{string} is selected as the departure city")
-    public void isSelectedAsTheDepartureCity(String SanDiego) {
-        System.out.println("Your selected departure city is" + SanDiego);
+    public void isSelectedAsTheDepartureCity(String departureCity) {
+        System.out.println("Your selected departure city is" + departureCity);
     }
 
     @And("{string} is selected as the destination city")
-    public void isSelectedAsTheDestinationCity(String NewYork) {
-        System.out.println("Your selected destination city is" + NewYork);
+    public void isSelectedAsTheDestinationCity(String destinationCity) {
+        System.out.println("Your selected destination city is" + destinationCity);
     }
 
     @Then("Available flights from San Diego to New York are displayed")
