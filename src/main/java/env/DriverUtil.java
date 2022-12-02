@@ -17,6 +17,9 @@ public class DriverUtil {
         return driver;
     }
 
+    private void matthewWasHere(){
+        System.out.println("Matthew is great and powerful, do not look behind the screen");
+    }
     public static void tearDownDriver() {
         if (driver != null) {
             driver.quit();
